@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<script src="./node_modules/gun/gun.min.js"></script>
+<script src="./node_modules/osc-js/lib/osc.min.js"></script>
+<script>
+
+const osc = new OSC()
+osc.open()
+
+gun = GUN('https://gun-relay.herokuapp.com/gun') // just to the peers handshake
+
+note = gun.get('note')
+
+// get osc from the local osc-js server and send it to peers via gun
+osc.on( 'dirt/play', message => {
+  const args_as_string = JSON.stringify(message.args)
+  message.args = args_as_string
+  note.put( message );
+});
+
+// get osc from remote peers via gun, send it to local osc-js server and from there to SC
+gun.get('note').on( data => {
+  if (osc.status() === OSC.STATUS.IS_OPEN) {
+    data.args = JSON.parse(data.args)
+    const message = new OSC.Message( data.address, ...data.args )
+    const bundle = new OSC.Bundle( [message], Date.now() + 100 )
+    osc.send(bundle)
+    }
+} );
+
+</script>
