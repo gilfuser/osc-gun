@@ -5,7 +5,7 @@ Livecoding Tidal (only, a.t.m.) P2P tool.
 
 [OSC](https://ccrma.stanford.edu/groups/osc/index.html) is Open Sound Control. If you are here for a reason you already know that.
 
-[Gun](https://gun.eco) is a P2P... web thing (this is my poor understanding of it). It allows remote computers to connect with each other without a server in between. OK, there is a server, but is only used to do the handshaking between peers.
+[Gun](https://gun.eco)  is a small, easy, and fast protocol for syncing data.
 
 ## Editor Agnostic
 
