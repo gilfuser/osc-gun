@@ -3,7 +3,7 @@ Livecoding Tidal (only, a.t.m.) P2P tool.
 
 ***work in progress***
 
-[OSC](https://ccrma.stanford.edu/groups/osc/index.html) is Open Sound Control. If you are here for a reason you already know that.
+[osc-js](https://github.com/adzialocha/osc-js) is an [Open Sound Control](https://github.com/adzialocha/osc-js) library for JavaScript applications.
 
 [Gun](https://gun.eco)  is a small, easy, and fast protocol for syncing data.
 
