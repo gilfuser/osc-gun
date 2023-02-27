@@ -1,5 +1,5 @@
 # osc-gun
-Livecoding Tidal (only a.t.m.) P2P tool.
+Livecoding Tidal (only, a.t.m.) P2P tool.
 
 ***work in progress***
 
@@ -9,7 +9,7 @@ Livecoding Tidal (only a.t.m.) P2P tool.
 
 ## Editor Agnostic
 
-If you want to be with a friend, or friends, to make a [Tidal](http://tidalcycles.org) session together but you live far away, or you live in São Paulo, you can use great tools like: [Troop](https://github.com/Qirky/Troop), [Flok](https://github.com/munshkr/flok) or [Extramuros](https://github.com/dktr0/extramuros/) and be OK using their coding environment. But what if you have a great Vim or NeoVim config, EMacs, [Pulsar](https://pulsar-edit.dev){:target="_blank" rel="noopener"}, or any other editor you enjoy coding with? Well, then try this.
+If you want to be with a friend, or friends, to make a [Tidal](http://tidalcycles.org) session together but you live far away, or you live in São Paulo, you can use great tools like: [Troop](https://github.com/Qirky/Troop), [Flok](https://github.com/munshkr/flok) or [Extramuros](https://github.com/dktr0/extramuros/) and be OK using their coding environment. But what if you have a great Vim or NeoVim config, EMacs, [Pulsar](https://pulsar-edit.dev), or any other editor you enjoy coding with? Well, then try this.
 
 ## How To Use This
 
