@@ -24,7 +24,7 @@ npm install
 ```
 or
 ```
-yarn add
+yarn install
 ```
 
 3. Start the server:
